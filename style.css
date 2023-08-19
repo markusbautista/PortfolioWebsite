@@ -2,14 +2,6 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.coloooor{
-  color: #123740;
-  color: #549aab;
-  color: #b0d7e1;
-  color: #f6f6f6;
-  color: #f1802d;
-}
-
 body{
   background-color: #b0d7e1;
 }
@@ -50,7 +42,7 @@ body{
 .profile_name {
   float: left;
   padding-left: 2cm;
-  margin-top: -0.5cm;
+  margin-top: -0.8cm;
   /* Add the styles here */
   color: #f6f6f6;
   font-size: 30px;
@@ -67,6 +59,8 @@ body{
 
 .contact_info img {
   width:25px;
+  height:25px;
+  margin-top: 5px;
   margin-right: 10px;
   float:left;
 }
