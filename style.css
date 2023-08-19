@@ -36,14 +36,14 @@ body{
 
 .topdiv {
   float: right;
-  margin-top: 0.20cm;
+  margin-top: 0.4cm;
   padding-right: 1cm;
 }
 
 .profile_name {
   float: left;
   padding-left: 2cm;
-  margin-top: -0.8cm;
+  margin-top: -0.4cm;
   /* Add the styles here */
   color: #f6f6f6;
   font-size: 30px;
