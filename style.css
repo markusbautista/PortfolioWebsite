@@ -347,3 +347,9 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
+
+footer{
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
