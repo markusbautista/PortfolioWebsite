@@ -36,6 +36,7 @@ body{
 
 .topdiv {
   float: right;
+  margin-top: 0.20cm;
   padding-right: 1cm;
 }
 
@@ -50,7 +51,7 @@ body{
 }
 
 .profile_name .contact_info {
-  font-size: 15px;
+  font-size: 10px;
   font-style: italic;
   display: flex;
   align-items: center;
