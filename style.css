@@ -2,34 +2,33 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body{
+body {
   background-color: #b0d7e1;
 }
 
 /* Navigation Bar */
 
 #home {
-  background-color:  #123740;
+  background-color: #123740;
   padding-bottom: 1cm;
-  margin-left:-1cm;
-  margin-right:-1cm;
-  margin-top:-1cm;
+  margin-left: -1cm;
+  margin-right: -1cm;
+  margin-top: -1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
   height: 5mm;
- }
+}
 
 .topmenu {
   color: #f6f6f6;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   font-size: 20px;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -43,8 +42,8 @@ body{
 .profile_name {
   float: left;
   padding-left: 2cm;
+  margin-right: 1cm;
   margin-top: -0.4cm;
-  /* Add the styles here */
   color: #f6f6f6;
   font-size: 30px;
 
@@ -59,11 +58,11 @@ body{
 }
 
 .contact_info img {
-  width:15px;
-  height:15px;
+  width: 15px;
+  height: 15px;
   margin-top: 5px;
   margin-right: 10px;
-  float:left;
+  float: left;
 }
 
 /* Titles */
@@ -136,6 +135,7 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+  margin-left: 1in;
 }
 
 .skill {
@@ -163,7 +163,7 @@ h2 {
   margin-block-start: 8px;
   margin-block-end: 5px;
   font-weight: bold;
-} 
+}
 
 .skills p {
   align-items: center;
@@ -171,7 +171,7 @@ h2 {
   color: gray;
   margin-block-start: 5px;
   margin-block-end: 5px;
-} 
+}
 
 .flex_center {
   display: flex;
@@ -223,25 +223,25 @@ h2 {
   text-align: left;
   width: 21.875rem;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #f6f6f6;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 10px;
-  margin: 10px;
-  border:1px solid gray;
+  margin: 5px;
+  border: 1px solid black;
   font-size: 18px;
-  height:150px
+  height: 150px
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #123740;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
 
 /* Scroll to Top Button */
 
-.iconbutton{
+.iconbutton {
   width: 48px;
   height: 48px;
   border-radius: 100%;
@@ -258,12 +258,12 @@ h2 {
 /* Form Pop-up */
 
 .popup {
-  width:400px;
+  width: 400px;
   background-color: #f6f6f6;
   border-radius: 3mm;
   top: 50%;
-  left:50%;
-  transform: translate(-50%,-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
   position: fixed;
   padding: 30px;
@@ -301,19 +301,20 @@ h2 {
 
 /* Recommendation Form */
 
-input, textarea {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-  margin: 10px;  
-  width:100%;
+input,
+textarea {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px;
+  width: 100%;
 }
 
 fieldset {
   display: flexbox;
   align-content: center;
-  justify-content: center;  
-  padding: 25px; 
-  margin-left: 50px; 
-  margin-right: 50px;   
+  justify-content: center;
+  padding: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
   border: thin solid white;
   width: 50%;
 }
@@ -343,7 +344,7 @@ button:hover {
   cursor: pointer;
 }
 
-footer{
+footer {
   font-size: 15px;
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
